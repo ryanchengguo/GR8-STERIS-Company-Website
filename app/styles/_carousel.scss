@@ -1,0 +1,22 @@
+.ui.hero.carousel {
+  .slick-prev {
+    left: 24px;
+  }
+
+  .slick-next {
+    right: 24px;
+  }
+
+  .slick-prev, .slick-next {
+    z-index: 3;
+    top: auto;
+    // padding: 0;
+    top: 50%;
+    margin-top: -16px;
+    margin-bottom: 24px;
+    width:32px;
+    height: 32px;
+    text-align: center;
+
+  }
+}
